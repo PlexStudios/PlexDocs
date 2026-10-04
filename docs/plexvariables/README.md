@@ -28,6 +28,16 @@ Global stored aliases:
 %plexvar_global_<id>%
 ```
 
+## Documentation
+
+- [Installation](installation.md)
+- [Variable Types](variable-types.md)
+- [Commands and Permissions](commands-and-permissions.md)
+- [Configuration](configuration.md)
+- [Examples](examples.md)
+- [Storage and Data](storage-and-data.md)
+- [Troubleshooting](troubleshooting.md)
+
 ## Variable Types
 
 PlexVariables currently supports:
@@ -37,7 +47,7 @@ PlexVariables currently supports:
 - `EXPRESSION`
 - `STORED`
 
-See [Variable Types](variable-types.md) for a focused overview.
+Variables can reference other PlexVariables values, allowing larger systems to be composed from smaller definitions.
 
 ## Storage
 
@@ -45,10 +55,8 @@ Stored variables support player-scoped and global values backed by local SQLite 
 
 Normal placeholder resolution uses cached values rather than performing database I/O on the hot path.
 
-See [Storage and Data](storage-and-data.md).
-
 ## Project Links
 
 - [Repository](https://github.com/PlexStudios/PlexVariables)
 - [Issues](https://github.com/PlexStudios/PlexVariables/issues)
-- GitHub Wiki — detailed project-specific manual
+- [GitHub Wiki](https://github.com/PlexStudios/PlexVariables/wiki)
