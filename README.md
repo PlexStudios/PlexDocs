@@ -4,8 +4,8 @@ Central documentation for the Plex Studios plugin ecosystem.
 
 ## Projects
 
-- [PlexVariables](docs/plexvariables/README.md) — custom PlaceholderAPI variables with conditions, expressions, nesting, and persistent storage
-- [PlexKillstreaks](docs/plexkillstreaks/README.md) — configurable killstreak tracking for Paper servers
+- [PlexVariables](docs/plexvariables/README.md) custom PlaceholderAPI variables with conditions, expressions, nesting, and persistent storage
+- [PlexKillstreaks](docs/plexkillstreaks/README.md) configurable killstreak tracking for Paper servers
 - PlexAware — documentation will be added when the project is ready for public release
 
 ## What Belongs Here
